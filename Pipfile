@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dash = "*"
+gunicorn = "*"
+requests = "*"
+dash-bootstrap-components = "*"
+pandas = "*"
+plotly = "*"
+plotly-express = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
